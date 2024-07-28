@@ -1,0 +1,41 @@
+<TravelPackage>
+    <name>Package 1</name>
+    <passengerCapacity>100</passengerCapacity>
+    <itinerary>
+        <Destination>
+            <name>Destination 1</name>
+            <activities>
+                <Activity>
+                    <name>Activity 1</name>
+                    <description>Description 1</description>
+                    <cost>50.0</cost>
+                    <capacity>20</capacity>
+                </Activity>
+            </activities>
+        </Destination>
+    </itinerary>
+    <passengerList>
+        <Passenger>
+            <name>John Doe</name>
+            <passengerNumber>1</passengerNumber>
+            <balance>0.0</balance>
+            <passengerType>Standard</passengerType>
+            <activitiesSignedUp/>
+        </Passenger>
+    </passengerList>
+</TravelPackage>
+
+<TravelPackageGUI>
+    <textArea>
+        <title>Travel Package Management System</title>
+        <size>
+            <width>800</width>
+            <height>600</height>
+        </size>
+        <closeOperation>EXIT_ON_CLOSE</closeOperation>
+        <scrollPane>
+            <textArea/>
+        </scrollPane>
+        <visible>true</visible>
+    </textArea>
+</TravelPackageGUI>
